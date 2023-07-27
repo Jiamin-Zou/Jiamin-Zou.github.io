@@ -11,6 +11,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -21,7 +25,7 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1 id="logo"><a href="/" onclick="location.reload(true);">Logo</a></h1>
+			<h1 id="logo"><a  id="site-logo" href="/"><img src="/favicon/favicon-32x32.png" alt="Site Logo"></a></h1>
 			<nav id="nav">
 				<ul>
 					<li>
@@ -40,6 +44,7 @@
 							<li><a href="https://www.linkedin.com/in/jiaminzou95/" target="_blank">LinkedIn</a></li>
 							<li><a href="https://github.com/Jiamin-Zou" target="_blank">GitHub</a></li>
 							<li><a href="https://wellfound.com/u/jiamin-zou-1" target="_blank">Wellfound</a></li>
+							<li><a href="mailto:jiaminz622@gmail.com" target="_blank">jiaminz622@gmail.com</a></li>
 
 						</ul>
 					</li>
@@ -151,48 +156,46 @@
 			<div class="container">
 				<header class="major">
 					<h2>Skills</h2>
-					<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
 				</header>
 				<div class="box alt">
 					<div class="row gtr-uniform">
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-chart-area"></span>
-							<h3>Ipsum sed commodo</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/01-JavaScript.png" alt="JavaScript">
+							<h3>JavaScript</h3>
 						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-comment"></span>
-							<h3>Eleifend lorem ornare</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/02-React.png" alt="React">
+							<h3>React</h3>
 						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-flask"></span>
-							<h3>Cubilia cep lobortis</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/03-Redux.png" alt="Redux">
+							<h3>Redux</h3>
 						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-paper-plane"></span>
-							<h3>Non semper interdum</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/04-ExpressJS.png" alt="ExpressJS">
+							<h3>Express.js</h3>
 						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-file"></span>
-							<h3>Odio laoreet accumsan</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/05-Ruby.png" alt="Ruby">
+							<h3>Ruby</h3>
 						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-lock"></span>
-							<h3>Massa arcu accumsan</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/06-Rails.png" alt="Rails">
+							<h3>Rails</h3>
 						</section>
+						<section class="col-3 col-6-medium col-12-xsmall">
+							<img class="skill-logo" src="/images/skills/06-Rails.png" alt="Rails">
+							<h3>Rails</h3>
+						</section>
+
 					</div>
+					<footer class="major">
+						<ul class="actions special">
+							<!-- <a href="#contacts" class="goto-next scrolly">Next</a> -->
+							<li><a href="#contacts" class="button scrolly">Connect with me</a></li>
+						</ul>
+					</footer>
 				</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="#" class="button">Magna sed feugiat</a></li>
-					</ul>
-				</footer>
-			</div>
 		</section>
 
 		<!-- Contact -->
@@ -216,16 +219,14 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li><a href="https://www.linkedin.com/in/jiaminzou95/" target="_blank"
+						class="icon brands alt fa-linkedin-in"></a><span class="label">LinkedIn</span></li>
+				<li><a href="https://github.com/Jiamin-Zou" target="_blank" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+				<li><a href="https://wellfound.com/u/jiamin-zou-1" target="_blank"
+						class="icon brands alt fa-angellist"><span class="label">Wellfound</span></a></li>
+				<li><a href="mailto:jiaminz622@gmail.com" class="icon solid alt fa-envelope"><span
+							class="label">Email</span></a></li>
 			</ul>
 		</footer>
 
