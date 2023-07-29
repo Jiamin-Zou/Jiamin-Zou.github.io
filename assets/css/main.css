@@ -3193,6 +3193,7 @@ input[type="button"]:disabled,
   -ms-transition: -ms-transform 1s ease, opacity 1s ease;
   transition: transform 1s ease, opacity 1s ease;
   background: rgba(23, 24, 32, 0.95);
+  background: rgba(23, 24, 32, 0.87);
   border-style: solid;
   opacity: 1;
   position: absolute;
