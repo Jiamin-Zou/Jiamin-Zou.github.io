@@ -3250,15 +3250,18 @@ input[type="button"]:disabled,
 }
 
 .spotlight.style1 .content {
-  border-color: #e44c65;
+  border-color: #4ce486;
 }
 
 .spotlight.style2 .content {
-  border-color: #5480f1;
+  border-color: #e0618b;
 }
 
 .spotlight.style3 .content {
-  border-color: #39c088;
+  border-color: #f1f519;
+}
+.spotlight.style4 .content {
+  border-color: #00fff2;
 }
 
 .spotlight.inactive .content {
