@@ -4289,3 +4289,88 @@ a#site-logo:hover{
 	cursor: pointer;
 	scale: 1.3;
 }
+
+.main-header  {
+  text-align: center;
+}
+
+#my-name {
+  position: relative;
+}
+
+#my-name::before,
+#my-name::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  content: "";
+  height: 2px;
+  background-color: white;
+}
+
+#my-name::before {
+  top: 0;
+  animation: slideFromLeft 1.5s ease-in-out 0s, colorShift 1.5s ease-out 0s;
+}
+
+#my-name::after {
+  bottom: 0;
+  animation: slideFromRight 1.5s ease-in-out 0s, colorShift 1.5s ease-out 0s;
+}
+
+@keyframes slideFromLeft {
+  from {
+    width: 0;
+    left: 0;
+    background-color: #e44c65;
+  }
+  to {
+    width: 100%;
+    left: 0;
+    background-color: white;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    width: 0;
+    left: 100%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@keyframes colorShift {
+  0% {
+    background-color: #e44c65;
+  }
+
+  90% {
+    background-color: #e44c65;
+  }
+  100% {
+    background-color: white;
+  }
+
+  
+}
+#my-name span{
+  animation: fadeIn 2.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
