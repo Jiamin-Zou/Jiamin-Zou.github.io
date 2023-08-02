@@ -4356,9 +4356,6 @@ a#site-logo:hover{
 
   
 }
-.fade-in-2{
-  animation: fadeIn 2.5s ease-in;
-}
 
 @keyframes fadeIn {
   0% {
@@ -4377,4 +4374,12 @@ a#site-logo:hover{
 
 .fade-in-1 {
   animation: fadeIn 1s ease-in;
+}
+.fade-in-2{
+  animation: fadeIn 2.5s ease-in;
+}
+
+#footer .wrapper {
+  display: flex;
+  flex-direction: column;
 }
