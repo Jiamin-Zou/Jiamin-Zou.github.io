@@ -4356,7 +4356,7 @@ a#site-logo:hover{
 
   
 }
-#my-name span{
+.fade-in-2{
   animation: fadeIn 2.5s ease-in;
 }
 
@@ -4373,4 +4373,8 @@ a#site-logo:hover{
   100% {
     opacity: 1;
   }
+}
+
+.fade-in-1 {
+  animation: fadeIn 1s ease-in;
 }
