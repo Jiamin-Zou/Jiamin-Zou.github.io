@@ -4435,3 +4435,14 @@ form label {
   max-width: 100%;
   min-height: 8em;
 }
+
+
+body.landing #header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.4);
+}
+
+.nav-sec {
+  font-weight: bold;
+}
