@@ -294,7 +294,7 @@ sup {
 hr {
   border: 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.3);
-  margin: 3em 0;
+  margin: 2em 0;
 }
 
 hr.major {
@@ -4382,4 +4382,12 @@ a#site-logo:hover{
 #footer .wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.sub-header {
+  font-weight: bold;
+}
+
+.actions .button {
+  padding: 0 1.75em;
 }
