@@ -4439,6 +4439,7 @@ form label {
 
 body.landing #header {
   position: sticky;
+  position: fixed;
   top: 0;
   background-color: rgba(30, 30, 30, 0.4);
 }
