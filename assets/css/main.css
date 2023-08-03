@@ -4427,3 +4427,9 @@ form label {
 .contact-form input:focus, .contact-form textarea:focus{
   background-color: rgba(225, 225, 225, 0.1) !important;
 }
+
+.contact-form textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 8em;
+}
