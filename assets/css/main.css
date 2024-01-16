@@ -4081,7 +4081,7 @@ body.is-touch #banner {
   }
 
   #titleBar .toggle:before {
-    background: #e44c65;
+    background: #367ab9;
     color: rgba(255, 255, 255, 0.5);
     content: "\f0c9";
     display: block;
